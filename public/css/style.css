@@ -163,13 +163,14 @@ p {
     rotate3d(2, 3, 3, 40deg);
 }
 
-/* .task15 {
+.task15 {
   transition: all 1s ease-out;
+  transform: matrix(1, 1, 1, 1);
 }
 
 .task15:hover {
-  transform: matrix(0.4, 1.1, 1);
-} */
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
+}
 
 .task16 {
   transition: all 1s linear;
